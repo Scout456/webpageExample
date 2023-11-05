@@ -172,7 +172,7 @@ writing-mode: vertical-rl;
 rotate: 180deg;
 font-family: 'Edu TAS Beginner', cursive;
 font-size: 4vw;
-margin-bottom: 4em;
+margin-bottom: 3em;
 }
 
 
@@ -181,7 +181,7 @@ margin-bottom: 4em;
   margin-top: 3.5em;
   border-radius: 50%;
   width: 40%;
-  height:50vh;
+  height:45vh;
   border: 4px solid #212427;
   border-style: double;
 
@@ -192,7 +192,7 @@ margin-bottom: 4em;
   text-orientation: mixed;
   font-family: 'Edu TAS Beginner', cursive;
   font-size: 4vw;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   
   }
 
@@ -241,6 +241,8 @@ margin-bottom: 4em;
     text-align: end;
     border-bottom: 2px solid #C6956D;
     font-family: 'Edu TAS Beginner', cursive;
+    font-size: 5vw;
+
   }
 
   .picPersonAndDog{
@@ -255,9 +257,16 @@ margin-bottom: 4em;
 
   #meetRaelee{
     font-family: 'Dancing Script', cursive;
-    font-size: 6vw;
+    font-size: 7vw;
     text-align: center;
     padding: 1em;
+  }
+
+  .scrollTwo{
+    text-align: center;
+     font-family: 'Edu TAS Beginner', cursive;
+     font-size: 3vw;
+     padding: .5em;
   }
 
 
@@ -305,7 +314,7 @@ margin-bottom: 4em;
 /*---------------------------------------------Media queries---------------------------------*/
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 400px){
 
  .site-header{
   position: sticky;
@@ -360,6 +369,46 @@ margin-bottom: 4em;
 .scrollingImages{
     display: block;
     padding-top: 2.5%;
+  }
+   /*Pic with contact -------------------------------------------*/
+   .contactAndImage{
+    background-image: url("pics/beach\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #271A1A;
+  }
+
+  #contact-with-image{
+    padding: 1em;
+    text-align: end;
+    border-bottom: 2px solid #C6956D;
+    font-family: 'Edu TAS Beginner', cursive;
+     font-size: 2vw;
+  }
+
+  .picPersonAndDog{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
+    height: 50vh;
+    border:4px double #C6956D;
+    margin-top: 1em;
+  }
+
+  #meetRaelee{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .scrollTwo{
+    text-align: center;
+     font-family: 'Edu TAS Beginner', cursive;
+     font-size: 1vw;
+     padding: .5em;
   }
 
 
