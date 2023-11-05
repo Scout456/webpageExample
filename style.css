@@ -154,7 +154,6 @@ header{
 
 .moblieStartPage{
   padding-top: 3em;
-  
 
 }
 
@@ -171,8 +170,8 @@ header{
 writing-mode: vertical-rl;
 rotate: 180deg;
 font-family: 'Edu TAS Beginner', cursive;
-font-size: 4vw;
-margin-bottom: 3em;
+font-size: 13px;
+margin-bottom: 13%
 }
 
 
@@ -191,8 +190,10 @@ margin-bottom: 3em;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-family: 'Edu TAS Beginner', cursive;
-  font-size: 4vw;
-  margin-bottom: 3em;
+  font-size: 13px;
+  margin-bottom: 13%;
+  
+  
   
   }
 
@@ -268,6 +269,7 @@ margin-bottom: 3em;
      font-size: 3vw;
      padding: .5em;
   }
+  /*End of second page on main-------------------------*/
 
 
 
