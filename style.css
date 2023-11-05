@@ -46,9 +46,9 @@ table {
 /*-----------------------End of CSS reset----------------------------------------------*/
 
 
-body {
+.moblieStartPage {
     background: linear-gradient(2deg, #dcdbcd, #c7956e, #969b98);
-    background-size: 600% 600%;
+    background-size: 400% 400%;
 
     -webkit-animation: AnimationName 7s ease infinite;
     -moz-animation: AnimationName 7s ease infinite;
@@ -121,7 +121,7 @@ header{
  }
 
 .shape-wrapper{
-  position: fixed;
+  position: absolute;
   top: -5%;
   left: 38.5%;
   width: 23%;
@@ -154,6 +154,8 @@ header{
 
 .moblieStartPage{
   padding-top: 3em;
+  
+
 }
 
 .navVerticalText{
@@ -196,11 +198,9 @@ margin-bottom: 2em;
   
 
   #services-wrapper{
-   position: fixed;
+   position: sticky;
    left: 50%;
-   
    transform: translate(-50%, -50%); 
-   
    width: 50%; 
    border-radius: 50% 50% 0 0; 
    border: .1px solid #212427;
@@ -216,7 +216,7 @@ margin-bottom: 2em;
     padding-top: 35%;
   }
 
-  .pTagServices{
+  #pTagServices{
    padding: 5%;
   }
 
@@ -224,14 +224,49 @@ margin-bottom: 2em;
     font-size: 2.5vw;
   }
 
+  /*For larger screens---------------------------------*/
   .scrollingImages{
     display: none;
   }
 
+  /*Second main page content meet Raelee-------------------------------*/
+  .contactAndImage{
+    background-color:#D1CAB8;
+    color: #271A1A;
+  }
+
+  #contact-with-image{
+    padding: 1em;
+    text-align: end;
+    border-bottom: 2px solid #C6956D;
+    font-family: 'Edu TAS Beginner', cursive;
+  }
+
+  .picPersonAndDog{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 70%;
+    height: 70vh;
+    border:4px double #C6956D;
+    margin-top: 1em;
+  }
+
+  #meetRaelee{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+    text-align: center;
+    padding: 1em;
+  }
+
+
+
+  
+
   /*Animation-------------------------------------*/
 
   
-.fadeup {
+.fadeRotate {
    transform: rotate(360deg);
    opacity: 0;
    transition-property: transform, opacity;
@@ -240,11 +275,19 @@ margin-bottom: 2em;
  }
 
  .fadeupUp {
-   transform: translateY(50px);
+   transform: translateY(100px);
    opacity: 0;
    transition-property: transform, opacity;
    transition-duration: 1s;
-   transition-timing-function: linear;
+   transition-timing-function: ease-in;
+ }
+
+ .fadeRight {
+   transform: translateX(-100px);
+   opacity: 0;
+   transition-property: transform, opacity;
+   transition-duration: 1s;
+   transition-timing-function: ease-in;
  }
 
   /*Shows text with JS intersection Observer*/
@@ -258,18 +301,15 @@ margin-bottom: 2em;
 
 
 
-
-
-
-
-
-
-
-
 /*---------------------------------------------Media queries---------------------------------*/
 
 
 @media screen and (min-width: 500px){
+
+ .site-header{
+  position: sticky;
+  top: 0;
+ }
   
  .wrapperHeader{
   display: flex;
@@ -279,6 +319,7 @@ margin-bottom: 2em;
   flex: 1;
   padding: 1em;
   background-color:#DCDBCD;
+  
  }
 
 
@@ -317,6 +358,7 @@ margin-bottom: 2em;
 
 .scrollingImages{
     display: block;
+    padding-top: 2.5%;
   }
 
 
