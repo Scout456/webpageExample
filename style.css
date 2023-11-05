@@ -171,7 +171,7 @@ writing-mode: vertical-rl;
 rotate: 180deg;
 font-family: 'Edu TAS Beginner', cursive;
 font-size: 15px;
-margin-bottom: 15%
+margin-bottom: 17%
 }
 
 
@@ -179,8 +179,8 @@ margin-bottom: 15%
 #rock-pic{
   margin-top: 3.5em;
   border-radius: 50%;
-  width: 50%;
-  height:50vh;
+  width: 45%;
+  height:45vh;
   border: 4px solid #212427;
   border-style: double;
 
@@ -191,7 +191,7 @@ margin-bottom: 15%
   text-orientation: mixed;
   font-family: 'Edu TAS Beginner', cursive;
   font-size: 15px;
-  margin-bottom: 15%;
+  margin-bottom: 17%;
   
   
   
