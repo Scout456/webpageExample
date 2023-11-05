@@ -233,7 +233,10 @@ margin-bottom: 13%
 
   /*Second main page content meet Raelee-------------------------------*/
   .contactAndImage{
-    background-color:#D1CAB8;
+    background-image: url("pics/beach\ \(1\).jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #271A1A;
   }
 
