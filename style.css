@@ -241,6 +241,8 @@ margin-bottom: 17%
     color: #271A1A;
   }
 
+  
+
   #contact-with-image{
     padding: 1em;
     text-align: end;
@@ -274,6 +276,49 @@ margin-bottom: 17%
      padding: .5em;
   }
   /*End of second page on main-------------------------*/
+
+  /*Third section main page---------------------------*/
+    
+  .fixedImg-wrapper{
+   background-image: url("pics/treeRow\ \(1\).jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   
+ }
+
+  .subFixImg-wrapper{
+    background-color: #c7956e;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 6vw;
+    padding: .5em;
+    
+}
+
+ .couples{
+   padding-left: .5em;
+ }
+
+ .elopWed{
+   padding-left: 1em;
+ }
+
+ .portrait{
+   padding-left: 1.5em;
+ }
+
+ #contactMe{
+  text-align: center;
+ }
+
+  /*End third section--------------------------------------*/
 
 
 
@@ -383,6 +428,7 @@ margin-bottom: 17%
     background-repeat: no-repeat;
     background-size: cover;
     color: #271A1A;
+    
   }
 
   #contact-with-image{
@@ -393,6 +439,15 @@ margin-bottom: 17%
      font-size: 2vw;
   }
 
+  .imgMeetRaelee-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+   
+
   .picPersonAndDog{
     display: block;
     margin: auto;
@@ -400,7 +455,7 @@ margin-bottom: 17%
     width: 40%;
     height: 50vh;
     border:4px double #C6956D;
-    margin-top: 1em;
+    margin: 1em;
   }
 
   #meetRaelee{
@@ -408,14 +463,18 @@ margin-bottom: 17%
     font-size: 4vw;
     text-align: center;
     padding: 1em;
+    
   }
 
-  .scrollTwo{
-    text-align: center;
-     font-family: 'Edu TAS Beginner', cursive;
-     font-size: 1vw;
-     padding: .5em;
-  }
+ 
+
+    .subFixImg-wrapper{
+    background-color: #c7956e;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2.5vw;
+    padding: .5em;
+    
+}
 
 
 }
