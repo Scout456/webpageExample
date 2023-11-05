@@ -170,7 +170,7 @@ header{
 writing-mode: vertical-rl;
 rotate: 180deg;
 font-family: 'Edu TAS Beginner', cursive;
-font-size: 15px;
+font-size: 17px;
 margin-bottom: 17%
 }
 
@@ -189,8 +189,8 @@ margin-bottom: 17%
 #verticalTextRight{
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-family: 'Edu TAS Beginner', cursive;
-  font-size: 15px;
+  font-family:'Edu TAS Beginner', cursive;
+  font-size: 17px;
   margin-bottom: 17%;
   
   
