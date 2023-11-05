@@ -269,7 +269,7 @@ margin-bottom: 2em;
 /*---------------------------------------------Media queries---------------------------------*/
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 500px){
   
  .wrapperHeader{
   display: flex;
