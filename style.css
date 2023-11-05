@@ -195,7 +195,7 @@ margin-bottom: 2em;
 
   
 
-  .services-wrapper{
+  #services-wrapper{
    position: fixed;
    left: 50%;
    
@@ -224,11 +224,23 @@ margin-bottom: 2em;
     font-size: 2.5vw;
   }
 
+  .scrollingImages{
+    display: none;
+  }
+
   /*Animation-------------------------------------*/
 
   
 .fadeup {
    transform: rotate(360deg);
+   opacity: 0;
+   transition-property: transform, opacity;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+ }
+
+ .fadeupUp {
+   transform: translateY(50px);
    opacity: 0;
    transition-property: transform, opacity;
    transition-duration: 1s;
@@ -257,7 +269,7 @@ margin-bottom: 2em;
 /*---------------------------------------------Media queries---------------------------------*/
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 700px){
   
  .wrapperHeader{
   display: flex;
@@ -274,7 +286,7 @@ margin-bottom: 2em;
  text-decoration: none;
  color: #49453d;
  font-family: 'Edu TAS Beginner', cursive;
- font-size: 3vw;
+ font-size: 2vw;
 }
 
  .wrapperHeader a:hover{
@@ -289,11 +301,23 @@ margin-bottom: 2em;
 
 .name{
   font-family: 'Dancing Script', cursive;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 
 .photography{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
+
+
+
+.services-wrapper, #services-wrapper, .h1Services, .shape-wrapper, .moblieStartPage {
+  display: none;
+}
+
+.scrollingImages{
+    display: block;
+  }
+
+
 }
