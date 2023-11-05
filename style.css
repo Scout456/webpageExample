@@ -268,13 +268,14 @@ margin-bottom: 17%
     text-align: center;
     padding: 1em;
   }
-
-  .scrollTwo{
+   .scroll{
     text-align: center;
-     font-family: 'Edu TAS Beginner', cursive;
-     font-size: 3vw;
-     padding: .5em;
-  }
+    padding-bottom: .3em;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: small;
+
+   }
+  
   /*End of second page on main-------------------------*/
 
   /*Third section main page---------------------------*/
@@ -295,10 +296,11 @@ margin-bottom: 17%
  }
 
   .subFixImg-wrapper{
-    background-color: #c7956e;
+    background-color: #DCDBCD;
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 6vw;
     padding: .5em;
+    opacity: .9;
     
 }
 
@@ -436,7 +438,7 @@ margin-bottom: 17%
     text-align: end;
     border-bottom: 2px solid #C6956D;
     font-family: 'Edu TAS Beginner', cursive;
-     font-size: 2vw;
+    font-size: 2vw;
   }
 
   .imgMeetRaelee-wrapper{
@@ -463,16 +465,24 @@ margin-bottom: 17%
     font-size: 4vw;
     text-align: center;
     padding: 1em;
-    
   }
 
- 
+   .scroll{
+    text-align: center;
+    padding-bottom: .3em;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: small;
+
+   }
 
     .subFixImg-wrapper{
-    background-color: #c7956e;
+    background-color: #DCDBCD;;
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 2.5vw;
     padding: .5em;
+    border-radius: 10px;
+    opacity: .9;
+    
     
 }
 
