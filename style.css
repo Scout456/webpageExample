@@ -292,7 +292,7 @@ margin-bottom: 17%
   /*Third section main page---------------------------*/
     
   .fixedImg-wrapper{
-   background-image: url("pics/treeRow\ \(1\).jpg");
+   background-image: url("pics/weddingHoldingHands\ \(1\).jpg");
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -333,6 +333,14 @@ margin-bottom: 17%
 
   /*End third section--------------------------------------*/
 
+  /*Start of 4th section of main page-----------------------------------*/
+
+   .h3FeaturedWork{
+    padding-top: 1em;
+     color:#87623A;
+     border-bottom: 1px solid #87623a;
+
+   }
 
 
   
