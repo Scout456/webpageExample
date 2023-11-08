@@ -345,26 +345,42 @@ margin-bottom: 17%
 
    .gallery-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
+
+  .gallery-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .image {
     width: 300px;
     margin: 10px;
     overflow: hidden;
-    border: 1px solid #ccc;
+    
 }
 
 img {
     width: 100%;
-    height: 90%;
+    height: 100%;
     transition: transform 0.2s;
 }
 
 .image:hover img {
     transform: scale(1.1);
 }
+
+ .exploreGallery{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 5vw;
+    text-align: center;
+    border: 1px double #524640;
+    padding: 1vw;
+    color: #524640;
+ }
 
 /*End of 4th section main page 6 pic galley------------------------*/
   
