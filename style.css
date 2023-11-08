@@ -336,6 +336,10 @@ margin-bottom: 17%
 
   /*Start of 4th section of main page image galley 6 pics-----------------------------------*/
 
+  .featuredWork{
+    background-color: #DCDBCD;
+  }
+
    .h3FeaturedWork{
      padding: 1em 0 .5em 1em;
      color:#87623A;
