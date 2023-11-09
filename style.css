@@ -250,7 +250,6 @@ margin-bottom: 17%
     border-bottom: 2px solid #C6956D;
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 5vw;
-
   }
 
   .picPersonAndDog{
@@ -338,12 +337,14 @@ margin-bottom: 17%
 
   .featuredWork{
     background-color: #DCDBCD;
+    
   }
 
    .h3FeaturedWork{
      padding: 1em 0 .5em 1em;
      color:#87623A;
      border-bottom: 2px solid #87623a;
+     font-family: 'Edu TAS Beginner', cursive;
 
    }
 
@@ -379,14 +380,95 @@ img {
  .exploreGallery{
     font-family: 'Dancing Script', cursive;
     font-weight: 500;
-    font-size: 5vw;
+    font-size: 4.5vw;
     text-align: center;
     border: 1px double #524640;
-    padding: 1vw;
+    padding: 3vw;
     color: #524640;
  }
 
 /*End of 4th section main page 6 pic galley------------------------*/
+
+
+
+/*Start of 5th section on main page GET IN TOUCH-----------------------*/
+
+.getInTouch-wrapper{
+   font-family: 'Edu TAS Beginner', cursive;
+   font-weight: 600;
+   font-size: 7vw;
+   background-color: #A69887;
+   color: #372816;
+   position: relative;
+   padding: .5em;
+}
+
+
+
+.getInTouchPic{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  
+  
+  }
+
+  .getInTouchPtag{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  
+}
+
+.InquireNowPtag{
+  position: absolute;
+  top: 70%;
+  left: 60%;
+}
+/*End of 5th section on main page GET IN TOUCH-----------------------*/
+
+/*Footer-------------------------------------------*/
+
+.mainFooterWrapper{
+  background-color:#BEBAAB;
+  color: #4D3E2B;
+  padding: 1.5em;
+  
+}
+
+.h2Raelee{
+ font-family: 'Dancing Script', cursive;
+ text-align: center;
+ font-size: 7vw;
+}
+
+.photo{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 3vw;
+  border-bottom: 1px solid #4D3E2B;
+  padding-bottom: 2em;
+}
+
+.homeAndAbout{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #4D3E2B;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 5vw;
+
+}
+ 
+
+
+
+
   
 
   /*Animation-------------------------------------*/
@@ -412,7 +494,7 @@ img {
    transform: translateX(-200px);
    opacity: 0;
    transition-property: transform, opacity;
-   transition-duration: 3s;
+   transition-duration: 2s;
    transition-timing-function: ease-in;
  }
 
@@ -506,7 +588,7 @@ img {
     text-align: end;
     border-bottom: 2px solid #C6956D;
     font-family: 'Edu TAS Beginner', cursive;
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
 
   .imgMeetRaelee-wrapper{
@@ -573,4 +655,91 @@ img {
     height: 80vh;
   }
 
+  .getInTouch-wrapper{
+   font-family: 'Edu TAS Beginner', cursive;
+   font-weight: 600;
+   font-size: 5vw;
+   background-color: #A69887;
+   color: #372816;
+   position: relative;
+   padding: .5em;
+}
+
+   .getInTouchPtag{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  
+}
+
+.InquireNowPtag{
+  position: absolute;
+  top: 70%;
+  left: 60%;
+}
+
+
+  #contact-with-image{
+    padding: 1em;
+    text-align: end;
+    border-bottom: 2px solid #C6956D;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2.5vw;
+  }
+
+}
+
+
+@media screen and (min-width: 1600px){
+  .featuredWork{
+    background-color: #DCDBCD;
+    
+  }
+
+   .h3FeaturedWork{
+     padding: 1em 0 .5em 1em;
+     color:#87623A;
+     border-bottom: 2px solid #87623a;
+     font-size: 3vw;
+
+   }
+
+   .gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .gallery-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.image {
+    width: 100%;
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+ .exploreGallery{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 5vw;
+    text-align: center;
+    border: 1px double #524640;
+    padding: 3vw;
+    color: #524640;
+ }
 }
