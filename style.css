@@ -462,9 +462,58 @@ img {
   border-bottom: 1px solid #4D3E2B;
   font-family: 'Edu TAS Beginner', cursive;
   font-size: 5vw;
+}
+
+
+  .pic4MainWrap{
+  margin: 1em;
+ 
+
 
 }
- 
+
+.pic2Wrapper{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.pic3Wrapper{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+
+ .designBy{
+  width: 50%;
+  font-size: 3vw;
+  float:right;
+  font-family: 'Dancing Script', cursive;
+  color: #302e2a;
+
+}
+
+.pic4{
+  padding: .1em;
+}
+
+.lastContent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #A69887;
+  color: #413a32;
+  font-family: 'Edu TAS Beginner', cursive;
+  padding: .5em;
+
+}
+
+
 
 
 
@@ -687,7 +736,29 @@ img {
     font-size: 2.5vw;
   }
 
-}
+   .exploreGallery{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    border: 1px double #524640;
+    padding: 3vw;
+    color: #524640;
+
+  }
+
+   .h3FeaturedWork{
+     padding: 1em 0 .5em 1em;
+     color:#87623A;
+     border-bottom: 2px solid #87623a;
+     font-size: 4vw;
+
+   }
+
+   .picFeaturedWork{
+    padding: 1em;
+   }
+
 
 
 @media screen and (min-width: 1600px){
@@ -700,7 +771,7 @@ img {
      padding: 1em 0 .5em 1em;
      color:#87623A;
      border-bottom: 2px solid #87623a;
-     font-size: 3vw;
+     font-size: 4vw;
 
    }
 
@@ -742,4 +813,5 @@ img {
     padding: 3vw;
     color: #524640;
  }
+}
 }
