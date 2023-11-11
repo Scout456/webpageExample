@@ -42,35 +42,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+  text-decoration: none;
+}
 
 /*-----------------------End of CSS reset----------------------------------------------*/
 
 
-.moblieStartPage {
-    background: linear-gradient(2deg, #dcdbcd, #c7956e, #969b98);
-    background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 7s ease infinite;
-    -moz-animation: AnimationName 7s ease infinite;
-    animation: AnimationName 7s ease infinite;
-    height: 100vh;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:37% 0%}
-    50%{background-position:64% 100%}
-    100%{background-position:37% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:37% 0%}
-    50%{background-position:64% 100%}
-    100%{background-position:37% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:37% 0%}
-    50%{background-position:64% 100%}
-    100%{background-position:37% 0%}
-}
 
 
 /*font-family: 'Dancing Script', cursive;
@@ -121,18 +100,6 @@ header{
      
  }
 
-.shape-wrapper{
-  position: absolute;
-  top: -1%;
-  left: 38.5%;
-  width: 23%;
-  height: 40%;
-  border: .1px solid#212427;
-  border-radius: 60% 60% 60% 60% / 60% 60% 60% 60%;
-
-}
-
-
 
 .name{
   font-family: 'Dancing Script', cursive;
@@ -148,90 +115,15 @@ header{
 
 /*End of header page--------------------------------------------*/
 
+/*-Scrolling images--------------------------------------------*/
 
-
-
-/* First page for Mobile----------------------------------------*/
-
-.moblieStartPage{
-  padding-top: 3em;
-
-}
-
-.navVerticalText{
-  text-align: center;
-}
-
- .unorderedListVerticalText li{
- text-decoration: none;
- display: inline;
-}
-
-#verticalTextLeft{
-writing-mode: vertical-rl;
-rotate: 180deg;
-font-family: 'Edu TAS Beginner', cursive;
-font-size: 17px;
-margin-bottom: 17%
-}
-
-
-
-#rock-pic{
-  margin-top: 3.5em;
-  border-radius: 50%;
-  width: 45%;
-  height:45vh;
-  border: 4px solid #212427;
-  border-style: double;
-
-}
-
-#verticalTextRight{
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-family:'Edu TAS Beginner', cursive;
-  font-size: 17px;
-  margin-bottom: 17%;
-  
-  
-  
+   .scrollImg{
+    width: 100vw;
+    height: 85vh;
   }
 
   
-
-  #services-wrapper{
-   position: sticky;
-   left: 50%;
-   transform: translate(-50%, -50%); 
-   width: 50%; 
-   border-radius: 50% 50% 0 0; 
-   border: .1px solid #212427;
-   text-align: center;
-   font-size: 3.5vw;
-   font-family: 'Edu TAS Beginner', cursive;
-   margin-top: 20%;
-  
-   
-
-  }
-
-  .h1Services{
-    padding-top: 35%;
-  }
-
-  #pTagServices{
-   padding: 5%;
-  }
-
-  .scroll{
-    font-size: 2.5vw;
-  }
-
-  /*For larger screens---------------------------------*/
-  .scrollingImages{
-    display: none;
-  }
+ 
 
   /*Second main page content meet Raelee-------------------------------*/
   .contactAndImage{
@@ -243,7 +135,6 @@ margin-bottom: 17%
   }
 
   
-
   #contact-with-image{
     padding: 1em;
     text-align: end;
@@ -395,8 +286,7 @@ img {
 
 .getInTouch-wrapper{
    font-family: 'Edu TAS Beginner', cursive;
-   font-weight: 600;
-   font-size: 7vw;
+   font-size: 6vw;
    background-color: #A69887;
    color: #372816;
    position: relative;
@@ -454,7 +344,7 @@ img {
   padding-bottom: 2em;
 }
 
-.homeAndAbout{
+ .homeAndAbout{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -464,11 +354,14 @@ img {
   font-size: 5vw;
 }
 
+ .bottomLinks{
+  color: #322311;
+}
 
-  .pic4MainWrap{
-  margin: 1em;
- 
 
+
+ .pic4MainWrap{
+  margin-top: 1em;
 
 }
 
@@ -476,7 +369,6 @@ img {
   width: 20%;
   display: flex;
   align-items: center;
-  
 
 }
 
@@ -485,17 +377,15 @@ img {
   display: flex;
   align-items: center;
   
-  
 }
 
 
  .designBy{
-  width: 50%;
+  width: 55%;
   font-size: 3vw;
   float:right;
   font-family: 'Dancing Script', cursive;
   color: #302e2a;
-
 }
 
 .pic4{
@@ -510,13 +400,15 @@ img {
   color: #413a32;
   font-family: 'Edu TAS Beginner', cursive;
   padding: .5em;
+  font-size: 3vw;
 
 }
 
+/*Footer for large screens------------------------------------*/
 
-
-
-
+.col-container{
+  display: none;
+}
 
   
 
@@ -607,21 +499,11 @@ img {
   font-size: 1.2vw;
 }
 
-
-
-.services-wrapper, #services-wrapper, .h1Services, .shape-wrapper, .moblieStartPage {
-  display: none;
-}
-
-.scrollingImages{
-    display: block;
-    
+ .scrollImg{
+    width: 100vw;
+    height: 90vh;
   }
 
-   .scrollImg{
-    width: 60vw;
-    height: 65vh;
-  }
    /*Pic with contact -------------------------------------------*/
    .contactAndImage{
     background-image: url("pics/beach\ \(1\).jpg");
@@ -692,7 +574,99 @@ img {
     border-radius: 10px;
     opacity: .9;
     
+  }
+
+  /*-------------------------------------------------*/
+
+   @media screen and (min-width: 768px){
+ 
+  .col-container {
+   display: table;
+   width: 100%;
+   background-color: #969B98;
+   color: #322311;
+   font-family: 'Edu TAS Beginner', cursive;
+   text-align: center;
+   
+}
+  .col {
+   display: table-cell;
+   padding: 16px;
+   border-right: 1px solid #322311;
+   vertical-align: middle;
+   width: 20%;
+}
+
+.largeScreenFooterRaelee{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+}
+
+  .footerLargeScreenPtag{
+    padding-bottom: .5em;
+    font-size: 2vw;
     
+  }
+   
+
+
+  .col-container{
+   display: block;
+}
+
+  .mainFooterWrapper{
+   display: none;
+}
+
+
+ .footerpic4MainWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.footerpic2Wrapper{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+
+.footerpic3Wrapper{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.pic5{
+  padding: .1em;
+  
+}
+
+
+.lastContent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #A69887;
+  color: #413a32;
+  font-family: 'Edu TAS Beginner', cursive;
+  padding: .5em;
+  font-size: 1.5vw;
+
+}
+
+  
+
 }
 
 
@@ -758,6 +732,8 @@ img {
    .picFeaturedWork{
     padding: 1em;
    }
+
+  
 
 
 

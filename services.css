@@ -1,0 +1,274 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----------------------End of CSS reset----------------------------------------------*/
+
+
+body {
+    background: linear-gradient(2deg, #dcdbcd, #c7956e, #969b98);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+    height: 100%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:37% 0%}
+    50%{background-position:64% 100%}
+    100%{background-position:37% 0%}
+}
+
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Edu TAS Beginner', cursive;*/
+
+/*Beginning of header--------------------------------------------*/
+
+header{
+  border-bottom: 1px solid #212427;
+  z-index: 1;
+}
+
+.site-header{
+  color: #49453d;
+
+}
+
+
+ .wrapperHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  padding: 1em;
+  background-color:#DCDBCD;
+
+ }
+
+
+ .wrapperHeader a{
+ text-decoration: none;
+ color: #49453d;
+ font-family: 'Edu TAS Beginner', cursive;
+ font-size: 3vw;
+ border-left: 1px solid #C6956D;
+ border-right: 1px solid #C6956D;
+ padding: .1em;
+
+
+}
+
+ .wrapperHeader a:hover{
+  outline:  solid #C6956D;
+  transition: outline 0.4s ease-in;
+  padding: .2em;
+  border-radius: 30em 10em;
+     
+ }
+
+
+.shape-wrapper{
+  position: absolute;
+  top: -1%;
+  left: 37.5%;
+  width: 23%;
+  height: 50%;
+  border: .1px solid#212427;
+  border-radius: 60% 60% 60% 60% / 60% 60% 60% 60%;
+
+}
+
+
+
+.name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3vw;
+  text-align: center;
+ }
+
+
+.photography{
+  font-size: 1.5vw;
+}
+
+/*End of header page--------------------------------------------*/
+
+
+/* First page for services----------------------------------------*/
+
+
+
+.navVerticalText{
+  text-align: center;
+}
+
+ .unorderedListVerticalText li{
+ text-decoration: none;
+ display: inline;
+}
+
+#verticalTextLeft{
+writing-mode: vertical-rl;
+rotate: 180deg;
+transform: translateY(40%);
+font-family: 'Edu TAS Beginner', cursive;
+font-size: 4vw;
+
+
+}
+
+
+
+#rock-pic{
+  margin-top: 3.5em;
+  border-radius: 50%;
+  width: 45%;
+  height:45%;
+  border: 4px solid #212427;
+  border-style: double;
+
+}
+
+#verticalTextRight{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: translateY(-40%);
+  font-family:'Edu TAS Beginner', cursive;
+  font-size: 4vw;
+  
+}
+
+
+  #services-wrapper{
+   text-align: center;
+   display: block;
+   margin: auto;
+   font-size: 3.5vw;
+   font-family: 'Edu TAS Beginner', cursive;
+   border: .1px solid #212427;
+   width: 50%; 
+   border-radius: 50% 50% 0 0; 
+   margin-bottom: 1em;
+   }
+
+
+  .h1Services{
+    padding-top: 20%;
+  }
+
+  #pTagServices{
+   padding: 5%;
+  }
+
+  .scroll{
+    font-size: 2.5vw;
+  }
+
+  .servicesSecondSection{
+    background-color: #969B98;
+    
+  }
+
+  
+  /*Animation-------------------------------------*/
+
+  
+.fadeRotate {
+   transform: rotate(360deg);
+   opacity: 0;
+   transition-property: transform, opacity;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+ }
+
+ .fadeupUp {
+   transform: translateY(100px);
+   opacity: 0;
+   transition-property: transform, opacity;
+   transition-duration: 1s;
+   transition-timing-function: ease-in;
+ }
+
+ .fadeRight {
+   transform: translateX(-200px);
+   opacity: 0;
+   transition-property: transform, opacity;
+   transition-duration: 2s;
+   transition-timing-function: ease-in;
+ }
+
+  /*Shows text with JS intersection Observer*/
+ .in-view {
+     transform:none;
+     opacity: 1;
+ }
+
+/*End of animation------------------------------*/
+
+
+/*Media queries------------------------------------------------>*/
+
+@media screen and (min-width: 400px){
+
+}
+
+
+@media screen and (min-width: 768px){
+
+}
+
