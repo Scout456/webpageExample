@@ -404,6 +404,10 @@ img {
 
 }
 
+.nameRaelee{
+  display: none;
+}
+
 /*Footer for large screens------------------------------------*/
 
 .col-container{
@@ -665,10 +669,12 @@ img {
 
 }
 
-  
-
+.nameRaelee{
+  font-family: 'Dancing Script', cursive;
+  display: block;
 }
 
+}
 
 }
 
