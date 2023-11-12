@@ -127,13 +127,15 @@ header{
 
   /*Second main page content meet Raelee-------------------------------*/
   .contactAndImage{
-    background-image: url("pics/beach\ \(1\).jpg");
+    background: rgb(220,219,205);
+    background: radial-gradient(circle, rgba(220,219,205,1) 0%, rgba(150,155,152,1) 34%, rgba(148,119,94,1) 70%);
+   /* background-image: url("pics/beach\ \(1\).jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #271A1A;
-  }
+    color: #271A1A;*/
 
+  }
   
   #contact-with-image{
     padding: 1em;
