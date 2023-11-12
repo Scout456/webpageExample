@@ -511,12 +511,9 @@ img {
   }
 
    /*Pic with contact -------------------------------------------*/
-   .contactAndImage{
-    background-image: url("pics/beach\ \(1\).jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #271A1A;
+    .contactAndImage{
+    background: rgb(220,219,205);
+    background: radial-gradient(circle, rgba(220,219,205,1) 0%, rgba(150,155,152,1) 34%, rgba(148,119,94,1) 70%);
     
   }
 
@@ -688,7 +685,6 @@ img {
 
   .getInTouch-wrapper{
    font-family: 'Edu TAS Beginner', cursive;
-   font-weight: 600;
    font-size: 5vw;
    background-color: #A69887;
    color: #372816;
