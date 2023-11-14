@@ -219,10 +219,53 @@ font-size: 4vw;
     font-size: 2.5vw;
   }
 
+
+
+  /*Second section-------------------------------------*/
+
   .servicesSecondSection{
+    text-align: center;
     background-color: #969B98;
-    
+    font-family: 'Edu TAS Beginner', cursive;
+    padding: 1em;
   }
+
+
+  .picForWhyIcanNotWait{
+   width: 50%;
+   border-radius: 15px 15px;
+   margin-top: 1em;
+  }
+
+  .uposedAndTruewrapper{
+  text-align: center;
+  background-color: #969B98;
+  font-family: 'Edu TAS Beginner', cursive;
+  line-height: 1.2;
+}
+
+
+  .h1WhyIcantWait{
+  font-family: 'Dancing Script', cursive;
+  font-size: 6vw;
+  padding-top: 1em;
+}
+
+
+
+.h3TrueToYou, .pTagDocumentDay{
+  padding: .5em;
+  color:#d8dccf;
+  font-size: 4vw;
+}
+
+.ptagIcantWait{
+  padding: .5em 1em .5em 1em;
+  line-height: 1.2;
+  font-size: 3vw;
+}
+
+  
 
   
   /*Animation-------------------------------------*/
@@ -265,10 +308,60 @@ font-size: 4vw;
 
 @media screen and (min-width: 400px){
 
+ .wrapperHeader a{
+ text-decoration: none;
+ color: #49453d;
+ font-family: 'Edu TAS Beginner', cursive;
+ font-size: 2vw;
 }
+}
+
 
 
 @media screen and (min-width: 768px){
+  .servicesSecondSection{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+  .picForWhyIcanNotWait{
+   width: 50%;
+   border-radius: 15px 15px;
+  }
+
+  .h1WhyIcantWait{
+  font-family: 'Dancing Script', cursive;
+  font-size: 4vw;
+  padding: .5em;
+}
+
+.uposedAndTruewrapper{
+  text-align: center;
+  background-color: #969B98;
+  padding: 2em 10em 1em 10em;
+  font-family: 'Edu TAS Beginner', cursive;
+  line-height: 1.2;
+}
+
+.h3TrueToYou, .pTagDocumentDay{
+  padding: .5em;
+  color:#d8dccf;
+  font-size: 2.5vw;
+}
+
+.ptagIcantWait{
+  padding: .5em;
+  line-height: 1.2;
+  font-size: 2vw;
+}
 
 }
 
+
+@media screen and (min-width: 1280px){
+
+}
