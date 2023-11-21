@@ -231,9 +231,10 @@ font-size: 5vw;
 
   .servicesSecondSection{
     text-align: center;
-    background-color: #969B98;
+  background: rgb(220,219,205);
+  background: linear-gradient(180deg, rgba(220,219,205,1) 0%, rgba(148,119,94,1) 44%, rgba(150,155,152,1) 74%);
     font-family: 'Edu TAS Beginner', cursive;
-    padding: 1em;
+    padding: .5em;
   }
 
 
@@ -271,7 +272,62 @@ font-size: 5vw;
   font-size: 3vw;
 }
 
+/*Hi I'm Raelee section moblie------------------------------------*/
 
+#hiWrapper{
+  background: rgb(220,219,205);
+  background: linear-gradient(180deg, rgba(220,219,205,1) 0%, rgba(150,155,152,1) 34%, rgba(148,119,94,1) 63%);
+  font-family: 'Edu TAS Beginner', cursive;
+  padding: 1em;
+
+}
+
+#picOfRaeleeWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+
+}
+
+.imgRaelee{
+  width: 50%;
+  border-radius: 15px 15px;
+}
+
+#hi{
+  text-align: center;
+  padding: 1em;
+  line-height: 1.3;
+}
+
+.h1TagHi{
+  font-family: 'Dancing Script', cursive;
+  font-size: 6vw;
+  }
+
+  .pTagArizona{
+    font-size: 4vw;
+    color: whitesmoke;
+  }
+
+  .PtageMainForCreativeMind{
+    padding: .5em;
+    text-align: center;
+    
+  }
+
+
+  .spanCreative{
+    color: whitesmoke;
+    font-size: 3.5vw;
+    
+  
+  }
+
+   .spanHumanConnection{
+    font-size: 2.7vw;
+   }
 
   
 
@@ -478,8 +534,6 @@ font-size: 4vw;
     }
    
   
-  
-
    /* Large screen services end------------------------------------------*/
 
 
@@ -515,20 +569,84 @@ font-size: 4vw;
   font-size: 2vw;
 }
 
-
-.servicesSecondSection{
-  clear: both;
-}
-
 .shape-wrapper, .moblieStartPage {
   display: none;
 }
 
+/*Start of Hi I'm Raelee-------------------------------------*/
 
-
-
+#picOfRaeleeWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
 
 }
+
+.imgRaelee{
+  width: 30%;
+}
+
+
+/*Hi I'm Raelee section large screen------------------------------------*/
+
+#hiWrapper{
+  background-color: #94775E;
+  font-family: 'Edu TAS Beginner', cursive;
+  padding: 1em;
+
+}
+
+#picOfRaeleeWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row-reverse;
+
+}
+
+.imgRaelee{
+  width: 50%;
+  border-radius: 15px 15px;
+}
+
+#hi{
+  text-align: center;
+  padding: 1em;
+  line-height: 1.3;
+}
+
+.h1TagHi{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+  }
+
+  .pTagArizona{
+    font-size: 3vw;
+    color: whitesmoke;
+  }
+
+  .PtageMainForCreativeMind{
+    padding: .5em;
+    text-align: center;
+    
+  }
+
+
+  .spanCreative{
+    color: whitesmoke;
+    font-size: 3vw;
+    
+  
+  }
+
+   .spanHumanConnection{
+    font-size: 2.5vw;
+    
+   }
+
+  }
+
 
 
 @media screen and (min-width: 1280px){
