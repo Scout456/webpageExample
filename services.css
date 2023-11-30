@@ -210,12 +210,12 @@ height: 20rem;
    text-align: center;
    display: block;
    margin: auto;
-   font-size: 3.5vw;
+   line-height: 1.1;
    font-family: 'Edu TAS Beginner', cursive;
    border: .1px solid #212427;
-   width: 50%; 
+   width: 60%; 
    border-radius: 50% 50% 0 0; 
-   margin-bottom: 1em;
+   margin-bottom: .5em;
    }
 
 
@@ -260,7 +260,7 @@ height: 20rem;
 
   .h1WhyIcantWait{
   font-family: 'Dancing Script', cursive;
-  font-size: 6vw;
+  font-size: 2em;
   padding-top: 1em;
 }
 
@@ -269,13 +269,13 @@ height: 20rem;
 .h3TrueToYou, .pTagDocumentDay{
   padding: .5em;
   color:#d8dccf;
-  font-size: 4vw;
+  
 }
 
 .ptagIcantWait{
   padding: .5em 1em .5em 1em;
   line-height: 1.2;
-  font-size: 3vw;
+  
 }
 
 /*Hi I'm Raelee section moblie------------------------------------*/
@@ -309,11 +309,11 @@ height: 20rem;
 
 .h1TagHi{
   font-family: 'Dancing Script', cursive;
-  font-size: 6vw;
+  font-size: 1.7em;
   }
 
   .pTagArizona{
-    font-size: 4vw;
+    
     color: whitesmoke;
   }
 
@@ -326,13 +326,12 @@ height: 20rem;
 
   .spanCreative{
     color: whitesmoke;
-    font-size: 3.5vw;
     
   
   }
 
    .spanHumanConnection{
-    font-size: 2.7vw;
+  line-height: 1.2;
    }
 
   
