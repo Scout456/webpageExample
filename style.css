@@ -115,8 +115,9 @@ header{
 
 /*-Scrolling images--------------------------------------------*/
 
-    marquee{
+    .scrollingImages{
       background-color: #87623A;
+      height: 100vh;
     }
 
    .scrollImg{
