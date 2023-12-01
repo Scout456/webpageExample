@@ -115,9 +115,15 @@ header{
 
 /*-Scrolling images--------------------------------------------*/
 
+    marquee{
+      background-color: #87623A;
+    }
+
    .scrollImg{
-    width: 100vw;
-    height: 85vh;
+    width: 70vw;
+    height: 70vh;
+    padding:2em 1em 2em 1em;
+    background-color: #C6956D;
   }
 
   
@@ -141,7 +147,10 @@ header{
     border-bottom: 2px solid #C6956D;
     font-family: 'Edu TAS Beginner', cursive;
     font-size: 5vw;
+
   }
+
+
 
   .raeleePic{
     display: block;
@@ -499,14 +508,17 @@ img {
   text-align: center;
 }
 
+.scrollImg{
+    width: 100vw;
+    height: 100vh;
+    padding:1em 1em 1em 1em;
+    background-color: #C6956D;
+  }
+
 .photography{
   font-size: 1.2vw;
 }
 
- .scrollImg{
-    width: 100vw;
-    height: 90vh;
-  }
 
    /*Pic with contact -------------------------------------------*/
     .contactAndImage{
@@ -525,22 +537,20 @@ img {
 
   .imgMeetRaelee-wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     }
 
-   
-
-  .picPersonAndDog{
+    .raeleePic{
     display: block;
-    margin: auto;
     border-radius: 50%;
-    width: 40%;
-    height: 50vh;
+    width: 60%;
     border:4px double #C6956D;
-    margin: 1em;
+    
   }
+
+ 
 
   #meetRaelee{
     font-family: 'Dancing Script', cursive;
@@ -580,6 +590,32 @@ img {
   /*-------------------------------------------------*/
 
    @media screen and (min-width: 768px){
+
+   .scrollImg{
+    width: 100vw;
+    height: 100vw;
+    padding:1em 1em 1em 1em;
+    background-color: #C6956D;
+  }
+    
+
+    .imgMeetRaelee-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    }
+
+    
+    .raeleePic{
+    display: block;
+    border-radius: 50%;
+    width: 60%;
+    height: 60vh;
+    border:4px double #C6956D;
+    margin-top: 5em;  
+  }
  
   .col-container {
    display: table;
@@ -676,10 +712,24 @@ img {
 }
 
 @media screen and (min-width: 1000px){
-  .scrollImg{
-    width: 80vw;
-    height: 80vh;
+
+   .scrollImg{
+    width: 60vw;
+    height: 60vw;
+    padding:1em 1em 1em 1em;
+    background-color: #C6956D;
   }
+
+     
+    .raeleePic{
+    display: block;
+    border-radius: 50%;
+    width: 60%;
+    height: 60vh;
+    border:4px double #C6956D;
+    margin-top: 7em;  
+  }
+
 
   .getInTouch-wrapper{
    font-family: 'Edu TAS Beginner', cursive;
