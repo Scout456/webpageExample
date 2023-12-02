@@ -157,8 +157,8 @@ header{
     display: block;
     margin: auto;
     border-radius: 50%;
-    width: 70%;
-    height: 70vh;
+    width: 55%;
+    height: 55vh;
     border:4px double #C6956D;
     margin-top: 1em;
   }
@@ -467,7 +467,7 @@ img {
 /*---------------------------------------------Media queries---------------------------------*/
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 450px){
 
  .site-header{
   position: sticky;
@@ -546,7 +546,8 @@ img {
     .raeleePic{
     display: block;
     border-radius: 50%;
-    width: 60%;
+    width: 40%;
+    
     border:4px double #C6956D;
     
   }
