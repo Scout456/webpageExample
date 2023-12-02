@@ -260,7 +260,7 @@ header{
   }
 
 .image {
-    width: 300px;
+    width: 20em;
     margin: 10px;
     overflow: hidden;
     
@@ -281,10 +281,19 @@ img {
     font-weight: 500;
     font-size: 4.5vw;
     text-align: center;
-    border: 1px double #524640;
+    border: 2px double #524640;
     padding: 3vw;
     color: #524640;
+    cursor: pointer;
  }
+
+  .exploreGallery:hover{
+    background-color: #70675F;
+    color:#DCDBCD;
+    border: 2px double #DCDBCD;
+    transition: 1s ease-in;
+  
+  }
 
 /*End of 4th section main page 6 pic galley------------------------*/
 
