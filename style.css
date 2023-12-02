@@ -202,9 +202,7 @@ header{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
-
-   
+   align-items: center;  
  }
 
   .subFixImg-wrapper{
@@ -547,7 +545,6 @@ img {
     display: block;
     border-radius: 50%;
     width: 40%;
-    
     border:4px double #C6956D;
     
   }
@@ -578,6 +575,19 @@ img {
     font-size: small;
 
    }
+
+   .fixedImg-wrapper{
+    background-image: url("pics/cakeCutting.jpg");
+    background-attachment: fixed;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+ }
 
     .subFixImg-wrapper{
     background-color: #DCDBCD;;
@@ -618,6 +628,9 @@ img {
     border:4px double #C6956D;
     margin-top: 5em;  
   }
+
+
+
  
   .col-container {
    display: table;
