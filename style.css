@@ -116,7 +116,7 @@ header{
 /*-Scrolling images--------------------------------------------*/
 
     .scrollingImages{
-      background-color: #87623A;
+      background-color: #958676;
     
     }
 
@@ -261,6 +261,7 @@ header{
 
 .image {
     width: 20em;
+    height: auto;
     margin: 10px;
     overflow: hidden;
     
@@ -268,7 +269,7 @@ header{
 
 img {
     width: 100%;
-    height: 100%;
+    height: auto;
     transition: transform 0.2s;
 }
 
@@ -553,7 +554,7 @@ img {
     .raeleePic{
     display: block;
     border-radius: 50%;
-    width: 40%;
+    width: 50%;
     height: auto;
     border:4px double #C6956D;
     
@@ -633,7 +634,7 @@ img {
     .raeleePic{
     display: block;
     border-radius: 50%;
-    width: 60%;
+    width: 40%;
     height: auto;
     border:4px double #C6956D;
     margin-top: 5em;  
@@ -739,8 +740,8 @@ img {
 @media screen and (min-width: 1000px){
 
    .scrollImg{
-    width: 60vw;
-    height: 60vw;
+    width: 40vw;
+    height: 85vh;
     padding:1em 1em 1em 1em;
     background-color: #C6956D;
   }
@@ -749,7 +750,7 @@ img {
     .raeleePic{
     display: block;
     border-radius: 50%;
-    width: 60%;
+    width: 40%;
     height: auto;
     border:4px double #C6956D;
     margin-top: 7em;  
@@ -828,6 +829,11 @@ img {
 
    }
 
+   .raeleePic{
+    width: 40%;
+    height: auto;
+   }
+
    .gallery-container {
     display: flex;
     justify-content: center;
@@ -842,6 +848,7 @@ img {
 
 .image {
     width: 100%;
+    height: auto;
     margin: 10px;
     overflow: hidden;
     
@@ -849,7 +856,7 @@ img {
 
 img {
     width: 100%;
-    height: 100%;
+    height: auto;
     transition: transform 0.2s;
 }
 
